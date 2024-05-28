@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="405.0" prefWidth="348.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.angela.saludar.proyectosaludar.proyectosaludar.PaginaPrincipalController">
+   <children>
+      <Label prefHeight="31.0" prefWidth="143.0" text="Introduzca el nombre:" />
+      <TextField fx:id="textopaginaprincipal" prefHeight="26.0" prefWidth="385.0" />
+      <Button fx:id="paginaprincipalsaludarButton" mnemonicParsing="false" onAction="#cambiarpaginasaludo" text="Saludar" />
+      <!----> <Button fx:id="paginaprincipalwordButton" mnemonicParsing="false" onAction="#crearDocumentoWord" prefHeight="34.0" prefWidth="85.0" text="Crear World" /> 
+      <Button fx:id="paginaprincipalpdfButton" mnemonicParsing="false" onAction="#crearDocumentoPDF" text="Crear PDF" />
+      <Button fx:id="salirButton" mnemonicParsing="false" onAction="#salirBotton" text="Salir" />
+      
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
